@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:view="http://schemas.android.com/apk/res-auto">
+
+    <com.jayson.show.ui.customview.simple.MySrcollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.jayson.show.ui.customview.viewgroup.SizeViewGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <com.jayson.show.ui.customview.viewgroup.CornerLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/green"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/orange"
+                    android:text="A角" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="2dp"
+                    android:background="@color/colorAccent"
+                    android:text="B角" />
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="1dp"
+                    android:background="@color/gray"
+                    android:text="C角" />
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="20dp"
+                    android:background="@color/colorPrimary"
+                    android:text="D角" />
+            </com.jayson.show.ui.customview.viewgroup.CornerLayout>
+
+            <com.jayson.show.ui.customview.viewgroup.CornerLayout2
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/green">
+
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/orange"
+                    android:text="A角"
+                    view:layout_position="left_bottom" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="2dp"
+                    android:background="@color/colorAccent"
+                    android:text="B角"
+                    view:layout_position="right_bottom" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="1dp"
+                    android:background="@color/gray"
+                    android:text="C角"
+                    view:layout_position="left_top" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="20dp"
+                    android:background="@color/colorPrimary"
+                    android:text="D角"
+                    view:layout_position="right_top" />
+            </com.jayson.show.ui.customview.viewgroup.CornerLayout2>
+        </LinearLayout>
+    </com.jayson.show.ui.customview.simple.MySrcollView>
+
+</layout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.jayson.show.ui.customview.simple.draw.BallMoveView
+                android:id="@+id/ball_view"
+                android:layout_width="match_parent"
+                android:layout_height="80dp" />
+
+            <com.jayson.show.ui.customview.simple.draw.CoordinateView
+                android:layout_width="match_parent"
+                android:layout_height="520dp" />
+
+            <com.jayson.show.ui.customview.simple.draw.ClipView
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+
+            <com.jayson.show.ui.customview.simple.draw.WatchView
+                android:id="@+id/watch_view"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="20dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/black" />
+        </LinearLayout>
+    </ScrollView>
+
+</layout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.jayson.show.ui.customview.simple.MySrcollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.jayson.show.ui.customview.sgb.ShaderView
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+
+            <com.jayson.show.ui.customview.sgb.LinearGradientView
+                android:layout_width="match_parent"
+                android:layout_height="500dp" />
+
+            <com.jayson.show.ui.customview.sgb.RadialGradientView
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+
+            <com.jayson.show.ui.customview.sgb.FiveChessView
+                android:layout_width="match_parent"
+                android:layout_height="500dp" />
+
+            <com.jayson.show.ui.customview.sgb.SweepGradientView
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <com.jayson.show.ui.customview.sgb.SweepCircle
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+
+            <com.jayson.show.ui.customview.sgb.PorterDuffXferView
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <com.jayson.show.ui.customview.sgb.Ex1_CirclePhotoView
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <com.jayson.show.ui.customview.sgb.Ex2_GuaGuaLeView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </com.jayson.show.ui.customview.simple.MySrcollView>
+
+</layout>

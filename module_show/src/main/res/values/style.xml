@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="myDefaultStyle">
+        <item name="attr4">attr4</item>
+    </style>
+
+    <style name="viewStyle">
+        <item name="attr2">attr2</item>
+    </style>
+</resources>

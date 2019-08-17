@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jayson.show">
+
+    <application
+        android:name="com.jayson.combase.debug.DebugApplication"
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.recyclerview.WaterfallActivity"></activity>
+        <activity android:name=".ui.recyclerview.RecyclerActivity" />
+        <activity android:name=".ui.customview.FlowLayoutActivity" />
+        <activity android:name=".ui.customview.ViewGroupActivity" />
+        <activity android:name=".ui.customview.ViewActivity" />
+        <activity android:name=".ui.customview.SgbActivity" />
+        <activity android:name=".ui.customview.DrawerActivity" />
+        <activity android:name=".ui.customview.DoubleCacheActivity" />
+        <activity android:name=".ui.customview.Graphics2DActivity" />
+        <activity android:name=".ui.viewpager.BannerActivity" />
+        <activity android:name=".ui.ShowActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.viewpager.VpTabActivity" />
+        <activity android:name=".ui.viewpager.SplashActivity" />
+    </application>
+
+</manifest>

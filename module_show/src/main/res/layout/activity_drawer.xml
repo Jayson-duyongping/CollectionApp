@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:onClick="onRedo"
+            android:text="撤销" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:onClick="onFill"
+            android:text="是否填充" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:onClick="drawRect"
+            android:text="画矩形" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:onClick="drawOval"
+            android:text="画椭圆" />
+
+        <com.jayson.show.ui.customview.drawer.view.CusImageView
+            android:id="@+id/cus_iv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</layout>
