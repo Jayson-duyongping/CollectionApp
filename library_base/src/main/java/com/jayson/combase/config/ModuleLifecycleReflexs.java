@@ -23,8 +23,10 @@ public class ModuleLifecycleReflexs {
     //登录业务模块
     private static final String SignInit = "com.jayson.sign.app.SignModuleInit";
 
-    //学习测试模块
+    //显示测试模块
     private static final String ShowInit = "com.jayson.show.app.ShowModuleInit";
+    //Demo测试模块
+    private static final String DemoInit = "com.jayson.demo.app.DemoModuleInit";
 
-    public static String[] initModuleNames = {BaseInit, MainInit, HomeInit, StudyInit, FunInit, MeInit, SignInit, ShowInit};
+    public static String[] initModuleNames = {BaseInit, MainInit, HomeInit, StudyInit, FunInit, MeInit, SignInit, ShowInit, DemoInit};
 }

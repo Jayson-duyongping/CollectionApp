@@ -5,6 +5,10 @@ if (isBuildModule.toBoolean()) {
     apply plugin: 'com.android.library'
 }
 android {
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
     defaultConfig {
         //ARouter配置
         javaCompileOptions {

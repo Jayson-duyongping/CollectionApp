@@ -1,1 +1,1 @@
-include ':app', ':library_base', ':library_res', ':module_main',':module_home', ':module_fun', ':module_study', ':module_me', ':module_sign', ':module_show'
+include ':app', ':library_base', ':library_res', ':module_main',':module_home', ':module_fun', ':module_study', ':module_me', ':module_sign', ':module_show', ':module_demo'
