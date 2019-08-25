@@ -27,7 +27,7 @@ public class MultiLanguageActivity extends AppCompatActivity {
         //点击
         languageAdapter.setOnItemClickListener(region -> {
             //设置语言
-            LanguageUtils.setLanguage(getApplicationContext(),
+            LanguageUtils.setLanguage(this,
                     region.getLocale());
             //缓存下来
             SpHelper.getInstance(getApplicationContext())

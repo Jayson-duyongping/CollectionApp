@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">module_demo</string>
+    <string name="app_name" translatable="false">module_demo</string>
     <string name="say_hello">hello</string>
 </resources>

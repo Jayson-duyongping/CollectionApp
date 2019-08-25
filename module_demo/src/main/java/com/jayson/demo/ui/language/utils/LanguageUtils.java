@@ -43,7 +43,7 @@ public class LanguageUtils {
     /**
      * 设置语言
      *
-     * @param context
+     * @param context 设置语言的context不能用applicationContext,因为不兼容8.0+
      * @param locale
      */
     public static void setLanguage(Context context, Locale locale) {
