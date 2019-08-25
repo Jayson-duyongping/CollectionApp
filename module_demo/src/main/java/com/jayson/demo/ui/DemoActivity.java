@@ -9,6 +9,7 @@ import com.jayson.demo.R;
 import com.jayson.demo.ui.language.MultiLanguageActivity;
 import com.jayson.demo.ui.language.bean.LanguageRegion;
 import com.jayson.demo.ui.language.utils.LanguageUtils;
+import com.jayson.demo.ui.text_selected.TextSelectedActivity;
 
 
 public class DemoActivity extends AppCompatActivity {
@@ -27,6 +28,11 @@ public class DemoActivity extends AppCompatActivity {
 
     public void goChangeLanguage(View view) {
         Intent intent = new Intent(this, MultiLanguageActivity.class);
+        startActivity(intent);
+    }
+
+    public void goTextSelected(View view) {
+        Intent intent = new Intent(this, TextSelectedActivity.class);
         startActivity(intent);
     }
 }

@@ -1,11 +1,28 @@
 <resources>
 
-    <!--&lt;!&ndash; Base application theme. &ndash;&gt;-->
-    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
-        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
-        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
-        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
-        <!--<item name="colorAccent">@color/colorAccent</item>-->
-    <!--</style>-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--将ActionBar隐藏,这里使用ToolBar-->
+        <item name="windowActionBar">false</item>
+        <!-- 使用 API Level 22以上编译的话，要拿掉前綴字 -->
+        <item name="windowNoTitle">true</item>
+        <!--colorPrimary 对应ToolBar的颜色-->
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <!--colorPrimaryDark对应状态栏的颜色-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--colorAccent 对应EditText编辑时、RadioButton选中、CheckBox等选中时的颜色。-->
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:windowBackground">@android:color/white</item>
+
+        <!--textColorHighlight文本选中高亮颜色-->
+        <item name="android:textColorHighlight">#28BEA0</item>
+        <!--mTextSelectHandleRes垂直指示器资源文件-->
+        <!--<item name="android:textSelectHandle">@drawable/selecthandle</item>-->
+        <!--textSelectHandleLeft左边指示器资源文件-->
+        <!--<item name="android:textSelectHandleLeft">-->
+        <!--@drawable/selecthandleleft</item>-->
+        <!--<item name="android:textSelectHandleRight">-->
+        <!--textSelectHandleRight右边指示器资源文件-->
+        <!--@drawable/selecthandleright </item>-->
+    </style>
 
 </resources>

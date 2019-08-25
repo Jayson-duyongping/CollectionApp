@@ -10,4 +10,9 @@
         android:onClick="goChangeLanguage"
         android:text="语言切换" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:onClick="goTextSelected"
+        android:text="文字选中样式" />
 </LinearLayout>
