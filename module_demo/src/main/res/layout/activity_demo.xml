@@ -8,7 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:onClick="goChangeLanguage"
-        android:text="语言切换" />
+        android:text="@string/language_change" />
 
     <Button
         android:layout_width="match_parent"

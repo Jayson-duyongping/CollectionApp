@@ -1,5 +1,6 @@
 package com.jayson.demo.ui.language;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
@@ -32,6 +33,10 @@ public class MultiLanguageActivity extends AppCompatActivity {
             //缓存下来
             SpHelper.getInstance(getApplicationContext())
                     .saveBeanByFastJson("currentLanguage", region);
+            //重启，目前最上层的activity清除掉
+            Intent k = getPackageManager().getLaunchIntentForPackage("com.jayson.demo");
+            k.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(k);
             //关闭页面
             finish();
         });

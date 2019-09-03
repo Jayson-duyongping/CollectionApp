@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name" translatable="false">module_demo</string>
     <string name="say_hello">hello</string>
+    <string name="language_change">语言切换</string>
 </resources>
