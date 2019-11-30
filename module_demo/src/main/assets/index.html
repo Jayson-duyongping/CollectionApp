@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+     
+    <title>Web测试</title> 
+</head>
+<body onload="init()">
+<button onclick="goNative()">调原生方法</button>
+<br>
+<br>
+<video width="100%"
+       controls autoplay loop>
+    <source src="http://vfx.mtime.cn/Video/2019/02/04/mp4/190204084208765161.mp4" type="video/mp4">
+    您的浏览器不支持 video 标签。
+</video>
+<br>
+<video width="100%"
+       controls autoplay loop>
+    <source src="http://movies.apple.com/media/us/iphone/2010/tours/apple-iphone4-design_video-us-20100607_848x480.mov" type="video/mov">
+    您的浏览器不支持 video 标签。
+</video>
+
+
+<br>
+<img width="100%"
+     src="http://pic1.win4000.com/wallpaper/e/574bd8602f6b3.jpg">
+<script>
+    function goNative(){
+        window.nativeAndroid.testNative('H5');
+    }
+</script>
+</body>
+</html>
